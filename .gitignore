@@ -1,0 +1,38 @@
+# 依赖包（核心必忽略）
+node_modules
+.pnpm-store
+
+# 打包产物
+dist
+dist-ssr
+*.local
+
+# Vite 本地缓存
+.vite
+.cache
+
+# 环境变量与敏感文件
+.env
+.env.local
+.env.*.local
+
+# Mac 系统垃圾文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 编辑器配置（个人本地文件，无需共享）
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
